@@ -1,4 +1,4 @@
-article {
+.allSnacks {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding: 100px;
@@ -50,47 +50,50 @@ nav {
 .hearts img{
     width: 20px;
 }
-/* .snackHealth{
-    grid-area: health;
-    background-color:  rgb(112, 214, 197);
-}
-.snackDetails{
-    grid-area: details;
-    background-color: rgb(187, 187, 197);
-}
-.showNavigation{
-    grid-area: navs;
-    background-color: rgb(255, 94, 0);
-} */
-
-.showSnackDetails {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
 
 .snackHealth{
-    width: 50px;
+    grid-area: health;
+    margin-left:300px;
+    margin-top: 50px;
 }
-.details_container {
-    width: 1000px;
+
+.snackDetails{
+    grid-area: details;
+    margin-top: 50px;
+}
+
+.snackDetails img{
+    width: 350px;
+    padding: 40px;
+    margin: 30px;
+    box-shadow: inset 5em 1em gold;
 }
 
 .showNavigation {
+    grid-area: navis;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 10px;
-    margin-top: 30px;
+    margin: 30px;
+    text-align: center;
 }
 
-.snackDetails img {
-    width: 400px;
+.showSnackDetails {
+    display: grid;
+    grid-template-areas: 
+    "health details details"
+    "navis navis navis";
 }
+
 
 .showNavigation button {
     font-size: medium;
     border: 2px solid orange;
     color: rgb(236, 157, 10);
+    width: 150px;
 }
+
+
 
 .newForm {
     display: grid;

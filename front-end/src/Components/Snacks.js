@@ -15,7 +15,7 @@ const Snacks = () =>{
 
     return (
         <div className="Snacks">
-            <article>
+            <article className="allSnacks">
                 {snacks.map(snack => {
                     return <Snack key={snack.id} snack={snack}/>
                 })}

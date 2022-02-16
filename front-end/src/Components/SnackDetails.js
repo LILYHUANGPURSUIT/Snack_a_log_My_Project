@@ -28,7 +28,7 @@ const SnackDetails = () =>{
                 <HeartHealth />
             </aside>
             
-            <div className="details_container">
+            
                 <div className="snackDetails">
                     <h5>{snack.name}</h5>
                     <img src={snack.image} alt={snack.name}/> 
@@ -38,11 +38,11 @@ const SnackDetails = () =>{
                 </div>
 
                 <div className="showNavigation">
-                    <div><Link to="/snacks"><button>Back</button></Link></div>
-                    <div><Link to={`/snacks/${id}/edit`}><button>Edit</button></Link></div>
-                    <button onClick={handleDelete}>Delete</button>
+                    <Link to="/snacks"><button>Back</button ></Link>
+                    <Link to={`/snacks/${id}/edit`}><button>Edit</button></Link>
+                    <div><button onClick={handleDelete}>Delete</button></div>
                 </div>
-            </div>
+ 
             
         </article>
     )
