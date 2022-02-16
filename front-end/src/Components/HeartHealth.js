@@ -4,7 +4,9 @@ import heartOutline from "../assets/heart-regular.png";
 function HeartHealth({ snackHealth }) {
   return (
     <>
-      <p>????</p>
+      <p className="hearts">
+        <img src={snackHealth ? heartSolid : heartOutline} alt={snackHealth ? "healthy food" : "unhealthy food"} />
+      </p>
     </>
   );
 }

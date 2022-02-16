@@ -1,0 +1,121 @@
+article {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 100px;
+    margin-left: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+    font-family: "font-effect-outline";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    padding: 30px;
+    background-color:rgb(17, 177, 177);
+    /* rgb(245, 190, 124); */
+    border-radius: 50px;
+}
+
+.narBar_logo {
+    width: 65px;
+    opacity: 80%;
+    border-radius: 60px;
+
+}
+
+.homePage {
+    font-family: 'Tangerine', serif;
+    font-size: 88px;
+    text-shadow: 4px 4px 4px #aaa;
+    padding: 150px;
+    text-align: center;
+}
+
+.Snack{
+    padding: 1em;
+    width: 150px;
+    background-color: rgb(255, 252, 242);
+    box-shadow: 60px -16px rgb(178, 237, 237);
+}
+
+.Snack img {
+    width: 150px;
+}
+
+.hearts img{
+    width: 20px;
+}
+/* .snackHealth{
+    grid-area: health;
+    background-color:  rgb(112, 214, 197);
+}
+.snackDetails{
+    grid-area: details;
+    background-color: rgb(187, 187, 197);
+}
+.showNavigation{
+    grid-area: navs;
+    background-color: rgb(255, 94, 0);
+} */
+
+.showSnackDetails {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.snackHealth{
+    width: 50px;
+}
+.details_container {
+    width: 1000px;
+}
+
+.showNavigation {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    margin-top: 30px;
+}
+
+.snackDetails img {
+    width: 400px;
+}
+
+.showNavigation button {
+    font-size: medium;
+    border: 2px solid orange;
+    color: rgb(236, 157, 10);
+}
+
+.newForm {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 70px 70px 160px 160px;
+}
+
+.editForm{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 70px 70px 160px 160px;
+}
+
+.newForm  label {
+    font-size: x-large;
+    color: rgb(222, 151, 45);
+}
+.editForm label {
+    font-size: x-large;
+    color: rgb(222, 151, 45);
+}
+
+.editForm input {
+    margin-bottom: 40px;
+    border-radius: 30%;
+    width: 230px;
+    border: 1px solid hsl(66, 38%, 46%);
+}
