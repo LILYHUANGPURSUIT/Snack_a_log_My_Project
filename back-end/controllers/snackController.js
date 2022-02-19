@@ -74,8 +74,8 @@ snacks.put("/:id", async (req, res) => {
 
 snacks.post("/", checkName, async (req, res) => {
     let {body} = req;
-    body.is_healthy = confrimHealth(body);
     body.name = capitalizedName(body.name);
+    body.is_healthy = confrimHealth(body);
     if(!body.image){
         body.image = "https://dummyimage.com/400x400/6e6c6e/e9e9f5.png&text=No+Image";
     }

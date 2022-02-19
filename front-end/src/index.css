@@ -1,3 +1,7 @@
+/* @media (max-width: 500px) {
+    
+} */
+
 .allSnacks {
     display: grid;
     grid-template-columns: repeat(3,1fr);

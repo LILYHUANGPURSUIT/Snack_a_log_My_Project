@@ -23,7 +23,7 @@ const EditSnack = () =>{
 
     const handleSubmit =(e)=>{
         e.preventDefault();
-        axios.put(`${API}/snack/${id}`,snack)
+        axios.put(`${API}/snacks/${id}`,snack)
         .then(()=> navigate("/snacks"))
         .catch(err =>console.log(err))
     }
