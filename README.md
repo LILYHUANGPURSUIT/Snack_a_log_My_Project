@@ -1,4 +1,7 @@
-# Snack-A-Log Pair Programming Lab
+# FE-deployment: 
+https://snack-log-lili-in-2022.netlify.app
+
+# Snack-A-Log Pair 
 
 ## Overview
 
